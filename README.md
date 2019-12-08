@@ -3,7 +3,7 @@ Note about Jmeter
 
 
 Performance Testing with JMeter 3 Third Edition
-page 60
+page 87
 
 Overriding properties
 One way is to
@@ -42,3 +42,5 @@ Click Network Tab > Preserve Log
 browse website
 and in the network tab => R click and select copy > all as HAR or save all as HAR with content
 then go to HAR to JMX converter and convert to jmeter script (JMX)
+
+<h4> Feeding	data	into	a	script </h4>
