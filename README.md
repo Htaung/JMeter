@@ -32,3 +32,6 @@ In aggregate report > Click Browse the result file and open
 
 Recording	scripts	is	where	you	will	spend	most	of	your	time.	It	is	often	the	first	step	to
 develop	test	plans	for	applications.	
+
+
+Test
