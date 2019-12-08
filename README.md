@@ -34,4 +34,9 @@ Recording	scripts	is	where	you	will	spend	most	of	your	time.	It	is	often	the	fir
 develop	test	plans	for	applications.	
 
 
-Test
+<h4>Converting	HTTP	web	archives	(HAR)	to JMeter	test	plans </h4>
+Go to browser developer tool => R+click inspect elements
+Click Network Tab > Preserve Log
+browse website
+and in the network tab => R click and select copy > all as HAR or save all as HAR with content
+then go to HAR to JMX converter and convert to jmeter script (JMX)
