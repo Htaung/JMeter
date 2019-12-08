@@ -33,6 +33,8 @@ In aggregate report > Click Browse the result file and open
 Recording	scripts	is	where	you	will	spend	most	of	your	time.	It	is	often	the	first	step	to
 develop	test	plans	for	applications.	
 
+<h4>Recording	scripts	via	the	Chrome	browser extension </h4>
+by using BlazeMeter browser plugin can record user interaction into JMX, Selenium format.
 
 <h4>Converting	HTTP	web	archives	(HAR)	to JMeter	test	plans </h4>
 Go to browser developer tool => R+click inspect elements
