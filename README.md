@@ -44,3 +44,18 @@ and in the network tab => R click and select copy > all as HAR or save all as HA
 then go to HAR to JMX converter and convert to jmeter script (JMX)
 
 <h4> Feeding	data	into	a	script </h4>
+The way to accomplish this is by supplying an input datafile to the test script. The file is
+normally in the form of comma-separated values (CSV)
+
+<code>
+CSV Data Set Config to the test plan by navigating to Test Plan | Add | Config
+Element | CSV Data Set Config. Let’s configure it:
+1. In the Filename box, enter input.txt.
+2. Leave the rest of the entries blank
+</code>
+
+Using timers
+By default, when test scripts are recorded in JMeter, they contain no pauses between page
+requests. This is sometimes known as the think time in test scripts
+ In JMeter, the ways to achieve these pauses are through
+timers. JMeter comes with a wealth of timers to achieve this purpose.
