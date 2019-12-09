@@ -3,7 +3,7 @@ Note about Jmeter
 
 
 Performance Testing with JMeter 3 Third Edition
-page 87
+page 96
 
 Overriding properties
 One way is to
