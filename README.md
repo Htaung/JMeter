@@ -59,3 +59,7 @@ By default, when test scripts are recorded in JMeter, they contain no pauses bet
 requests. This is sometimes known as the think time in test scripts
  In JMeter, the ways to achieve these pauses are through
 timers. JMeter comes with a wealth of timers to achieve this purpose.
+
+<h4> Manageing HTTP Session </h4>
+For instance, a user called Joe could be given admin privileges while Susan is only given user privileges.
+Whatever the case, JMeter has a way to maintain HTTP user sessions for your test scripts.
