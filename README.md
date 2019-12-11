@@ -63,3 +63,14 @@ timers. JMeter comes with a wealth of timers to achieve this purpose.
 <h4> Manageing HTTP Session </h4>
 For instance, a user called Joe could be given admin privileges while Susan is only given user privileges.
 Whatever the case, JMeter has a way to maintain HTTP user sessions for your test scripts.
+
+Add HTTP Cookie Manager to the test plan by navigating to Test plan | Add |
+Config Element | HTTP Cookie Manager.
+Save and run the test plan.
+
+How it works…
+The HTTP Cookie Manager stores and sends cookies like a web browser does. The cookie
+of any request that contains one is automatically extracted and stored by the component to
+be used for all future requests from that particular thread. Each JMeter thread gets its own
+session just like in a regular web browser to prevent users’ sessions from overlapping with
+each other.
