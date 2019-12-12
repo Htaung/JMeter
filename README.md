@@ -74,3 +74,5 @@ of any request that contains one is automatically extracted and stored by the co
 be used for all future requests from that particular thread. Each JMeter thread gets its own
 session just like in a regular web browser to prevent users’ sessions from overlapping with
 each other.
+
+<h4>Testing Single Page Applications (SPAs) </h4>
